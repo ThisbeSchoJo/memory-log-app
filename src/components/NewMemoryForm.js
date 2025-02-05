@@ -1,4 +1,5 @@
 //Component for entering new memories
+import {useState} from 'react'
 
 function NewMemoryForm() {
 

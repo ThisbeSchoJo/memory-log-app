@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from '../logo.svg';
 import '../App.css';
 import MemoryLog from './MemoryLog';
@@ -9,6 +9,18 @@ function App() {
   //State to store the list of memories
   const [memories, setMemories] = useState([])
 
+  //Fetch memories from db.json when component mounts
+  useEffect(() => {
+    fetch("http://localhost:3000/memories")
+    .then(response => {
+      if (response.ok) {
+        response.json().then(memoriesData => setMemories(memoriesData))
+      }
+      else {
+        alert("Error: Unable to retrieve memories data.")
+      }
+    })
+  }, [])
 
   return (
     <div className="App">
