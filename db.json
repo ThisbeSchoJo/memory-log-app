@@ -1,0 +1,39 @@
+{
+    "memories": [
+      {
+        "id": 1,
+        "title": "Family trip to the beach",
+        "color": "#FFD700",
+        "date": "2023-06-15",
+        "description": "A fun day building sandcastles and swimming in the ocean."
+      },
+      {
+        "id": 2,
+        "title": "First concert",
+        "color": "#FF6347",
+        "date": "2022-11-05",
+        "description": "Went to my first concert with friends. The energy was electric!"
+      },
+      {
+        "id": 3,
+        "title": "Graduation day",
+        "color": "#32CD32",
+        "date": "2021-05-20",
+        "description": "A day full of pride and joy. The ceremony was unforgettable."
+      },
+      {
+        "id": 4,
+        "title": "Road trip through the mountains",
+        "color": "#8A2BE2",
+        "date": "2020-09-10",
+        "description": "A scenic drive through the mountain roads. Stopped at a lake for a picnic."
+      },
+      {
+        "id": 5,
+        "title": "Surprise birthday party",
+        "color": "#FF1493",
+        "date": "2022-02-25",
+        "description": "A surprise birthday party thrown by my friends. It was full of laughter and surprises."
+      }
+    ]
+  }
