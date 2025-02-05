@@ -1,0 +1,1 @@
+//Component for each individual memory

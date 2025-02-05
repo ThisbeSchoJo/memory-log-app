@@ -1,0 +1,1 @@
+//Component to show the color related to each memory
