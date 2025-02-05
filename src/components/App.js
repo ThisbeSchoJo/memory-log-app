@@ -1,7 +1,15 @@
+import React, { useState } from 'react';
 import logo from '../logo.svg';
 import '../App.css';
+import MemoryLog from './MemoryLog';
+import NewMemoryForm from './NewMemoryForm';
+
 
 function App() {
+  //State to store the list of memories
+  const [memories, setMemories] = useState([])
+
+
   return (
     <div className="App">
       <header className="App-header">

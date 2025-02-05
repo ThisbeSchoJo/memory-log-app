@@ -10,4 +10,4 @@ function NewMemoryForm() {
   
 }
 
-export default MemoryForm;
+export default NewMemoryForm;
